@@ -6,6 +6,7 @@ def key_for_min_value(name_hash)
   name_hash.each do |key, value|
     if name_hash[key]< highest_val
       highest_val= name_hash[key]
+    end
   end
   puts highest_val
 end
