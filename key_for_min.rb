@@ -7,5 +7,5 @@ def key_for_min_value(name_hash)
     if name_hash[key]< highest_val
       highest_val= name_hash[key]
   end
-  highest_val
+  puts highest_val
 end
