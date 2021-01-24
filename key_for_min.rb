@@ -10,5 +10,5 @@ def key_for_min_value(name_hash)
       highest_key= key
     end
   end
-  puts highest_key
+  puts highest_val
 end
