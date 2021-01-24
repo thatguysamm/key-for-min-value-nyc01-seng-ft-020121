@@ -3,11 +3,11 @@
 
 def key_for_min_value(name_hash)
   highest_val= 9999999
-  highest_key= 
+
   name_hash.each do |key, value|
     if name_hash[key]< highest_val
       highest_val= name_hash[key]
-      highest_key=key
+      highest_key= key
     end
   end
   puts highest_val
